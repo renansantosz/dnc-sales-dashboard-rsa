@@ -10,11 +10,11 @@ export default tseslint.config([
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
-      js.configs.recommended,
-      tseslint.configs.recommended,
-      reactHooks.configs['recommended-latest'],
-      reactRefresh.configs.vite,
-      eslint-config-prettier
+      'js.configs.recommended',
+      'tseslint.configs.recommended',
+      'reactHooks.configs'['recommended-latest'],
+      'reactRefresh.configs.vite',
+      'eslint-config-prettier',
     ],
     languageOptions: {
       ecmaVersion: 2020,
